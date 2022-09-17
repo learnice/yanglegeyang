@@ -14,7 +14,7 @@
 是否配置成功的标志是，你进入到游戏中 cat-match.easygame2021.com 这个域名下的接口数据是否能看到，如图就是成功的
 <img width="893" alt="截屏2022-09-17 23 04 01" src="https://user-images.githubusercontent.com/18441883/190864394-fcc0eb99-084e-4269-864e-841f6178b6cb.png">
 
-1. 进入游戏后会看到，先后调用了cat-match.easygame2021.com/sheep/v1/game/map_info_new?map_id=xxx 接口两次，第一次 map_id=80001，第二次是 map_id=90017，它们分别返回了对应关卡数据的 md5。这个接口更新的很频繁，昨天它返回的还是当前关卡的所有数据（现在关卡数据 https://cat-match-static.easygame2021.com/maps/ 由这个接口下发）
+1. 进入游戏后会看到，先后调用了cat-match.easygame2021.com/sheep/v1/game/map_info_new?map_id=xxx 接口两次，第一次 map_id=80001，第二次是 map_id=90017，它们分别返回了对应关卡数据的 md5。这个接口更新的很频繁，昨天它返回的还是当前关卡的所有数据（现在关卡数据 cat-match-static.easygame2021.com/maps/ 由这个接口下发）
 
 2. 猜测当游戏运行的时候，会通过这个 md5 找到对应的游戏数据，然后运行。所以我们把 map_id=90017（第二关） 的返回内容的 md5，修改为 map_id=80001（第一关）返回的 md5 就可以了
 
