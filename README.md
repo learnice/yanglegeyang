@@ -7,7 +7,7 @@
 ## 抓包
 [Charles 使用教程](https://www.jianshu.com/p/ff85b3dac157)
 
-## 修改数据
+## 修改数据（截止 20220917）
 使用 Charles 抓 cat-match.easygame2021.com 这个域名，获取到两关数据，然后将第一关的数据保存到文件中，map 到第二关的接口上
 
 0. **首先确保你的抓包配置完成！**
