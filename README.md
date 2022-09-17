@@ -31,8 +31,9 @@
 https://user-images.githubusercontent.com/18441883/190634528-62896dd8-1cdc-44db-b374-3780fa730391.mp4
 
 ## 进阶玩法
-通过修改返回的关卡数据实现，修改 cat-match-static.easygame2021.com/maps/ 这个接口的数据，至于你可以创造你要的形状
 https://user-images.githubusercontent.com/18441883/190870542-bec4bbfb-3fd4-4976-8fb9-f0722915b201.mp4
+
+通过修改返回的关卡数据实现，修改 cat-match-static.easygame2021.com/maps/ 这个接口的数据，至于你可以创造你要的形状
 
 ## 声明
 本项目仅供学习交流，严禁用作商业行为！
