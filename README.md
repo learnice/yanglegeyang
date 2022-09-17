@@ -33,7 +33,7 @@ https://user-images.githubusercontent.com/18441883/190634528-62896dd8-1cdc-44db-
 ## 图案自定义
 https://user-images.githubusercontent.com/18441883/190870542-bec4bbfb-3fd4-4976-8fb9-f0722915b201.mp4
 
-通过修改返回的关卡数据实现，修改 cat-match-static.easygame2021.com/maps/ 这个接口的数据，至于你可以创造你要的形状
+通过修改返回的关卡数据实现，修改 cat-match-static.easygame2021.com/maps/ 这个接口的数据，视频的中的图案可以参考项目中的 520.txt 文件
 
 ## 声明
 本项目仅供学习交流，严禁用作商业行为！
